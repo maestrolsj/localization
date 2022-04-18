@@ -17,7 +17,7 @@
         "login": "Login",
         "skip": "Skip",
         "alreadyMember": "Already have an account?",
-        "signupRecommend": "Sign up for all function",
+        "signupRecommend": "Sign up for all features",
         "empty": "Empty",
         "deleteAccount": "Delete account",
         "deleteReview" : "Delete my review",
@@ -25,21 +25,6 @@
         "emptyHistory" : "Remove All" ,
         "emptyHistoryDescription" : "History cannot be recoverable" 
       },
-      "MapViewScreen":{
-        "confirm": "Confirm",
-        "outOfService" : "Out of service area",
-        "chooseAvailableCountry" : "Germany and Poland are available"
-      },
-      "FavoriteListScreen":{
-         "title":"Favorite"
-      },
-      "MyReviewListScreen":{
-        "noResultSubject": "There is no your review yet",
-        "noResultDescription": "Write your valuable reviews",
-        "title": "My reviews",
-        "placeholder":"Doctor / hospital name",
-        "writtenOn" : "written on"
-      }, 
       "Toast": {
         "success": "Success",
         "warning": "Warning",
@@ -48,11 +33,16 @@
         "reported" : "your report is sent",
         "reportFail" : "report is failed"
       },
+      "MapViewScreen":{
+        "confirm": "Confirm",
+        "outOfService" : "Out of service area",
+        "chooseAvailableCountry" : "Germany and Poland are available"
+      },
       "SettingScreen": {
         "language": "Language", 
         "general": "GENERAL",
         "account": "ACCOUNT", 
-        "loginDescription": "Login to use all functions for free",
+        "loginDescription": "Login to use all feautures for free",
         "about": "About",
         "deleteAccount": "Delete account",
         "feedback": "Feedback",
@@ -60,6 +50,9 @@
         "login": "Login",
         "logout": "Logout",
         "title": "Settings"
+      },
+      "FavoriteListScreen":{
+         "title":"Favorite"
       },
       "AboutScreen": {
         "reportProblem": "Report a problem",
@@ -83,16 +76,17 @@
         "open": "Open",
         "closed": "Closed",
         "reviewNow": "Review now",
-        "shareYourOpinion": "Share your valuable opinion",
+        "shareYourOpinion": "We would like to know your oppinion",
         "verificationMailSent": "Verification mail is sent",
         "typeEmail": "Please type your email",
         "notValidMail": "Email is not valid",
         "failAddFavorite": "Fail to add favorite"
       },
+
       "CategoryModal": {
         "internist": "Internist",
         "lasik" : "Lasik",
-        "plastic" : "Plastic",
+        "plastic" : "Plastic surgeon",
         "surgeon": "Surgeon",
         "dentist": "Dentist",
         "ophthalmology": "Eye doctor",
@@ -116,6 +110,7 @@
         "distance": "Distance",
         "popularity": "Popularity"
       },
+     
       "NoResultsEmptyState": {
         "refresh": "Refresh",
         "setLocation": "Set location"
@@ -138,6 +133,7 @@
         "myReviews": "My reviews",
         "history": "History"
       },
+ 
       "ProfileScreen": {
         "currently": "Currently", 
         "website": "Website",
@@ -156,18 +152,26 @@
         "delete" : "Delete",
         "bookWith" : "Book with "
       },
+      "MyReviewListScreen":{
+        "noResultSubject": "There is no your review yet",
+        "noResultDescription": "Write your valuable reviews",
+        "title": "My reviews",
+        "placeholder":"Doctor / hospital name",
+        "writtenOn" : "published on"
+      }, 
+     
       "NoGPSState": {
         "gpsLoading": "GPS is loading...",
         "description": "Check if your GPS is On"
       },
       "ErrorState": {
-        "somethingWrong": "Something is wrong",
+        "somethingWrong": "Something went wrong",
         "description": "network error",
         "retry": "Retry"
       },
       "HistoryListScreen": {
         "title": "History",
-        "noResultDescription": "It will show your view history",
+        "noResultDescription": "no viewing history",
         "noResultSubject": "There is no result found"
       },
       "ReviewModal": {
@@ -201,7 +205,7 @@
         "etc": "Something else",
         "title": "Report",
         "descriptionTitle": "Why are you reporting this comment?",
-        "description": "Your report is anonymous, except if you're reporting an intellectual property infringement. If someone is in immediate danger, call the local emergency services. Don't wait."
+        "description": "Your report is anonymous"
       },
       "LanguageScreen": {
         "title": "Language"
@@ -233,52 +237,62 @@
   "de": {
     "translation": {
       "ConfirmModal": {
-        "notNow": "Not now",
-        "loginRequired": "Login is required",
-        "continue": "Continue",
-        "goforLogin": "Go for login?",
-        "invalidateMail": "Not verified email",
-        "getEmail": "Get email again",
-        "send": "Send",
-        "close": "Close",
-        "verificationMailSent": "Verification mail is sent",
-        "checkYourMail": "Check your email",
-        "confirm": "Confirm",
-        "logout": "Logout",
-        "goforLogout": "Are you sure to logout?",
-        "cancel": "Cancel",
-        "signupRecommendDesc": "Do you have an account?",
-        "signup": "Signup",
+        "notNow": "Nicht jetzt",
+        "loginRequired": "Login ist notwendig",
+        "continue": "Weiter",
+        "goforLogin": "Einloggen?",
+        "invalidateMail": "Email nicht verifiziert",
+        "getEmail": "Email erneut senden?",
+        "send": "Senden",
+        "close": "Schließen", 
+        "logout": "Ausloggen",
+        "goforLogout": "Jetzt Ausloggen?",
+        "cancel": "Abbrechen", 
+        "signup": "Registrieren",
         "login": "Login",
-        "skip": "Skip",
-        "alreadyMember": "Already have an account?",
-        "signupRecommend": "Sign up for all function",
-        "empty": "Empty",
-        "deleteAccount": "Delete account",
-        "deleteReview": "Delete your review",
-        "forsure": "your favorite list will be removed"
+        "skip": "Überspringen",
+        "alreadyMember": "Schon ein Account?",
+        "signupRecommend": "Registrieren für alle Optionen",
+        "empty": "Leer",
+        "deleteAccount": "Account löschen",
+        "deleteReview" : "Bewertung löschen",
+        "forsure": "Wirklich löschen?",
+        "emptyHistory" : "Alles entfernen" ,
+        "emptyHistoryDescription" : "Verlauf kann nicht wiederhergestellt werden" 
       },
       "Toast": {
-        "success": "Success",
-        "warning": "Warning",
-        "error": "Error",
-        "info": "Info"
+        "success": "Erfolgreich",
+        "warning": "Warnung",
+        "error": "Fehler",
+        "info": "Info",
+        "reported" : "Melden",
+        "reportFail" : "Meldung fehlgeschlagen"
+      },
+     "MapViewScreen":{
+        "confirm": "Bestätigen",
+        "outOfService" : "Bereich auserhalb des Service",
+        "chooseAvailableCountry" : "Deutschland und Polen sind verfügbar"
       },
       "SettingScreen": {
-        "language": "Sprache",
-        "preference": "Preference",
-        "general": "General",
-        "account": "Account",
-        "autoTranslation": "Auto Translation",
-        "loginDescription": "Login to use all functions for free",
-        "about": "About",
-        "deleteAccount": "Delete account",
-        "feedback": "Feedback"
+        "language": "Sprache", 
+        "general": "ALLGEMEINE EINSTELLUNGEN",
+        "account": "ACCOUNT", 
+        "loginDescription": "Einloggen um alle Funktionen zu nutzen",
+        "about": "Über uns",
+        "deleteAccount": "Account löschen",
+        "feedback": "Feedback",
+        "reviews":"Bewertungen",
+        "login": "Login",
+        "logout": "Logout",
+        "title": "Einstellungen"
+      },
+      "FavoriteListScreen":{
+         "title":"Favoriten"
       },
       "AboutScreen": {
         "reportTitle": "Fehler melden?",
         "reportProblem": "Fehler melden",
-        "licencesDescription": "Die folgende Liste von Drittanbieter-Software kann in Teilen in der softgarden App enthalten sein. Wir danken der Open-Source-Community für ihre Beiträge.",
+        "licencesDescription": "Die folgende Liste von Drittanbieter-Software kann in Teilen in der Whisper App enthalten sein. Wir danken der Open-Source-Community für ihre Beiträge.",
         "licencesTitle": "Benutzte Bibliotheken",
         "termsSource": "https://maestrolsj.github.io/localization/terms_de.html",
         "privacySource": "https://maestrolsj.github.io/localization/privacy_de.html",
@@ -290,33 +304,27 @@
         "mobileDevice": "Mobiles Gerät",
         "operatingSystem": "Betriebssystem",
         "version": "Version",
-        "imprint": "Impressum",
         "about": "About"
       },
       "GlobalStrings": {
-        "offlineToast": "Gerät ist offline",
-        "noImageAvailable": "No Image",
-        "iosRequestPermission": "Settings -> Privacy -> Location -> Whisper",
-        "open": "Open",
-        "closed": "Closed",
-        "reviewNow": "Review now",
-        "shareYourOpinion": "share your precious opinion",
-        "resetMailSent": "Password reset email is sent",
-        "verificationMailSent": "Verification mail is sent",
-        "typeEmail": "Please type your email",
-        "notValidMail": "Email is not valid",
-        "failAddFavorite": "Fail to add favorite",
-        "gpsOffToast": "Cannot find GPS location"
+          "open": "Offen",
+          "closed": "Geschlossen",
+          "reviewNow": "Jetzt Berwerten",
+          "shareYourOpinion": "Teile deine Meinung",
+          "verificationMailSent": "Bestätigungs Email gesendet",
+          "typeEmail": "Email einfügen",
+          "notValidMail": "Üngülltige Email Adresse",
+          "failAddFavorite": "Hinzufügen vom Favoriten fehlgeschagen"
       },
       "CategoryModal": {
         "internist": "Internist",
         "surgeon": "Chirurg",
         "dentist": "Zahnarzt",
         "lasik" : "Lasik",
-        "plastic" : "Plastische",
+        "plastic" : "Plastische Chirurgie",
         "ophthalmology": "Augenarzt",
         "otolaryngology": "HNO arzt",
-        "orthopedic" : "Orthopädisch",
+        "orthopedic" : "Orthopädie",
         "psychologist": "Psychotherapie",
         "pediatrics": "Kinderarzt",
         "pharmacy": "Apotheke",
@@ -324,9 +332,10 @@
         "hospital": "Krankenhaus",
         "dermatologist": "Hautarzt",
         "gynecologist": "Gynekologie",
-        "urologist": "Urologe",
+        "urologist": "Urologie",
         "physiotherapist": "Physiotherapie", 
-        "emergency": "notaufnahme"
+        "emergency": "Notaufnahme",
+        "categories": "Kategorie"
       },
       "SortingModal": {
         "sort": "sortieren",
@@ -335,105 +344,125 @@
         "highrating": "Hohe Bewertung"
       },
       "NoResultsEmptyState": {
-        "noResults": "Ergebnis nicht gefunden",
-        "description": "Versuchen Sie die Kategorie oder Position zu ändern",
-        "refresh": "Neu Laden"
-      },
-      "RankListScreen": {
-        "whisperComments": "whisper comments",
-        "open": "Open",
-        "bestSearch": "bester ",
         "refresh": "Neu Laden",
-        "noResultSubject": "Ergebnis nicht gefunden",
-        "noResultDescription": "Versuchen Sie die Kategorie oder Position zu ändern",
-        "noCategorySubject": "Choose medical category",
-        "noCategoryDescription": "Whisper will find medical service around you\n( you can change your location )"
+        "setLocation": "Standort ändern"
+      },
+      "RankListScreen": { 
+       "whisperComments": "whisper Kommentar",
+        "open": "Offen",
+        "emergency": "Notaufnahme",
+        "bestSearch": "bester ",
+        "refresh": "Neu laden",
+        "noResultSubject": "Kein Ergebnis gefunden",
+        "analyzing" : "Suche den Besten",
+        "takesTime" : "es dauert ein wenig",
+        "noResultDescription": "Versuchen Sie die Kategorie oder Position zu ändern"
       },
       "TabBar": {
         "home": "Start",
         "favorite": "Favorit",
         "setting": "Einstellung",
         "myReviews": "Meine Bewertungen",
-        "history": "History"
+        "history": "Verlauf"
       },
       "ProfileScreen": {
-        "currently": "Currently",
-        "photos": "Photos",
+        "currently": "Gegenwärtig", 
         "website": "Website",
-        "whisperReview": "Whisper's Review",
-        "blockedReview": "This review is blocked",
+        "whisper": "Whisper",
+        "google": "Google",
         "detail": "Detail",
-        "edit": "Edit",
-        "title": "My review",
-        "comments": "Comments",
-        "viewMoreReviews": "More whisper reviews"
+        "blockedReview": "Diese Bewertung ist blockiert",
+        "edit": "Bearbeiten",
+        "title": "MEINE BEWERTUNG", 
+        "viewMoreReviews": "Mehr Whisper Bewertungen",
+        "reviews": "Bewertungen",
+        "favoriteDeleted" : "Favorit ist gelöscht",
+        "favoriteSaved" : "Favorit ist gespeichert",
+        "saved" : "Gespeichert",
+        "deleted" : "Gelöscht",
+        "delete" : "Löschen",
+        "bookWith" : "Buchen mit "
       },
+      "MyReviewListScreen":{
+        "noResultSubject": "Noch keine Bewertungen",
+        "noResultDescription": "Schreibe deine Bewertung",
+        "title": "Meine Bewertungen",
+        "placeholder":"Doktor / Krankenhaus Name",
+        "writtenOn" : "Veröffentlicht am"
+      }, 
       "NoGPSState": {
-        "gpsLoading": "GPS is loading...",
-        "description": "Check if your GPS is On"
+        "gpsLoading": "GPS wird geladen...",
+        "description": "Überprüfe ob GPS an ist"
       },
       "ErrorState": {
-        "somethingWrong": "Something is wrong",
-        "description": "network error",
-        "retry": "Retry"
+        "somethingWrong": "Etwas ging daneben",
+        "description": "Netzwerk fehler",
+        "retry": "Erneut versuchen"
       },
-      "NoFavoriteState": {
-        "noResults": "your favorite list is empty",
-        "description": "save your favorite places"
-      },
+      
       "HistoryListScreen": {
-        "title": "History",
-        "noResultDescription": "It will show your view history",
+        "title": "Verlauf",
+        "noResultDescription": "Verlauf leer",
         "noResultSubject": "Ergebnis nicht gefunden"
       },
       "ReviewModal": {
-        "submit": "Submit",
-        "title": "My rating",
+        "submit": "Bestätigen",
+        "title": "Meine Bewertung",
         "cat100": "Hygiene",
         "cat101": "Expertise",
-        "cat102": "Friendly",
-        "cat103": "Price",
-        "cat104": "Waiting time",
-        "inputTextPlaceholder": "type more than 20 words",
-        "notEnoughScore": "score cannot be zero",
-        "notEnoughWords": "please write more than 10 words",
-        "reviewSent": "your review is sent",
-        "reviewFail": "review failed"
+        "cat102": "Freundlichkeit",
+        "cat103": "Preis",
+        "cat104": "Warte Zeit",
+        "notEnoughScore": "Bewertung kann nicht 0 sein",
+        "notEnoughWords": "Bitte mehr als 10 Wörter schreiben",
+        "reviewSent": "Bewertung gesendet",
+        "reviewFail": "Senden der Bewertung fehlgeschlagen",
+        "agree": "Ich akkzeptiere die Bewertungsrichtlinien",
+        "howWas": "Wie war "
       },
       "ReviewListScreen": {
         "noResultSubject": "Ergebnis nicht gefunden",
-        "noResultDescription": "Try changing filter",
-        "edit": "Edit",
-        "report": "Report"
+        "noResultDescription": "Versuche den Filter zu wechseln",
+        "edit": "Bearbeiten",
+        "report": "Melden",
+        "blockedReview" : "Blockiert",
+        "filter" : "Filter",
+        "original" : "Original",
+        "translate" : "Übersetzen"
       },
       "ReportModal": {
-        "inappropriate": "It's inappropriate",
-        "spam": "It's spam",
-        "title": "Report",
-        "descriptionTitle": "Why are you reporting this comment?",
-        "description": "Your report is anonymous, except if you're reporting an intellectual property infringement. If someone is in immediate danger, call the local emergency services. Don't wait."
+        "spam": "Das ist Spam",
+        "sabotage": "Sabotage",
+        "scam": "Betrug",
+        "etc": "Etwas Anderes",
+        "title": "Melden",
+        "descriptionTitle": "Wieso Meldest du diesen Kommentar?",
+        "description": "Deine Meldung ist annonym"
       },
       "LanguageScreen": {
-        "title": "Language"
+        "title": "Sprache"
       },
       "LoginScreen": {
         "title": "Login",
-        "forgotPassword": "Forgot password",
-        "signup": "Sign up",
-        "loginFailed": "Login failed",
-        "password": "Password",
-        "agreeTo": "Login by agreeing to",
-        "termsAndPrivacy": "Terms & Conditions. Privacy policy"
+        "forgotPassword": "Passwort vergessen?",
+        "signup": "Registrieren",
+        "loginFailed": "Login fehlgeschlagen",
+        "password": "Passwort",
+        "agreeTo": "Einloggen mit Einwilligung auf",
+        "termsAndPrivacy": "AGB. Datenschutz-Bestimmungen"
       },
       "SignupScreen": {
-        "title": "Sign up",
+        "title": "registrieren",
         "email": "Email",
-        "password": "Password",
-        "confirm": "Confirm",
-        "emailSent": "Validation mail is sent",
-        "emailFormatError": " Incorrect email format",
-        "mismatchedPassword": "Password is not matched",
-        "checkAgreeTerms": "Check agree terms"
+        "password": "Passwort",
+        "confirm": "Bestätigen",
+        "emailSent": "Bestätigungs Email ist gesendet",
+        "emailFormatError": " Inkorrektes Email Format",
+        "mismatchedPassword": "Passwort stimmt nicht überein",
+        "checkAgreeTerms": "Prüfe und bestätige AGB",
+        "wrongFormat" : "Falsches Format",
+        "checkAgree" : "Bitte bestätige Einwilligung",
+        "agreeTerms" : "Ich willige ein"
       }
     }
   },
